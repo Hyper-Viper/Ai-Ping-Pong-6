@@ -1,0 +1,43 @@
+body{
+    overflow-y: hidden;
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+    padding-top: 1%;
+}
+
+.heading h3{
+    display: inline;
+    font-size: 225%;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+    margin-bottom: 0.75%;
+}
+
+#start, #status, #restart{
+    font-size: 22px;
+}
+
+#rs{
+    display: none;
+}
+
+.close{
+    line-height: 2.15;
+    font-size: 200%;
+    margin-right: 0.7%;
+}
+
+canvas{
+    margin-top: -14%;
+    transform: scale(0.55);
+}
+
+li{
+    text-align: left;
+}
